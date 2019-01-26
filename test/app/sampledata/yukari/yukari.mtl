@@ -1,0 +1,142 @@
+# Blender MTL File: 'yukari.blend'
+# Material Count: 12
+
+newmtl ぱんつ.003
+Ns 7.843137
+Ka 1.000000 1.000000 1.000000
+Kd 0.720000 0.720000 0.720000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 0
+map_Kd MMD 9.3.1\UserFile\Model\Yukari Yakumo\t\y03.png
+map_d MMD 9.3.1\\UserFile\\Model\\Yukari Yakumo\\t\\y03.png
+
+newmtl リボン結.003
+Ns 7.843137
+Ka 1.000000 1.000000 1.000000
+Kd 0.720000 0.720000 0.720000
+Ks 0.080000 0.080000 0.080000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd MMD 9.3.1\UserFile\Model\Yukari Yakumo\t\y02.png
+map_d MMD 9.3.1\\UserFile\\Model\\Yukari Yakumo\\t\\y02.png
+
+newmtl 服.003
+Ns 7.843137
+Ka 1.000000 1.000000 1.000000
+Kd 0.720000 0.720000 0.720000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd MMD 9.3.1\UserFile\Model\Yukari Yakumo\t\y04.png
+
+newmtl 瞳.003
+Ns 7.843137
+Ka 1.000000 1.000000 1.000000
+Kd 0.720000 0.720000 0.720000
+Ks 0.080000 0.080000 0.080000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd MMD 9.3.1\UserFile\Model\Yukari Yakumo\t\ey.png
+map_d MMD 9.3.1\\UserFile\\Model\\Yukari Yakumo\\t\\ey.png
+
+newmtl 肌2.003
+Ns 7.843137
+Ka 1.000000 1.000000 1.000000
+Kd 0.720000 0.720000 0.720000
+Ks 0.080000 0.080000 0.080000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 0
+map_Kd MMD 9.3.1\UserFile\Model\Yukari Yakumo\t\y00.png
+map_d MMD 9.3.1\\UserFile\\Model\\Yukari Yakumo\\t\\y00.png
+
+newmtl 青.003
+Ns 7.843137
+Ka 1.000000 1.000000 1.000000
+Kd 0.720000 0.720000 0.720000
+Ks 0.080000 0.080000 0.080000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd MMD 9.3.1\UserFile\Model\Yukari Yakumo\t\e.png
+map_d MMD 9.3.1\\UserFile\\Model\\Yukari Yakumo\\t\\e.png
+
+newmtl 靴.003
+Ns 7.843137
+Ka 1.000000 1.000000 1.000000
+Kd 0.370196 0.069020 0.069020
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd MMD 9.3.1\\UserFile\\Model\\Yukari Yakumo\\t\\nt_01.bmp
+
+newmtl 靴底.003
+Ns 7.843137
+Ka 1.000000 1.000000 1.000000
+Kd 0.043922 0.043922 0.043922
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd MMD 9.3.1\\UserFile\\Model\\Yukari Yakumo\\t\\nt_01.bmp
+
+newmtl 顔パーツ.003
+Ns 7.843137
+Ka 1.000000 1.000000 1.000000
+Kd 0.720000 0.720000 0.720000
+Ks 0.080000 0.080000 0.080000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd MMD 9.3.1\UserFile\Model\Yukari Yakumo\t\y00.png
+map_d MMD 9.3.1\\UserFile\\Model\\Yukari Yakumo\\t\\y00.png
+
+newmtl 首リボン.003
+Ns 7.843137
+Ka 1.000000 1.000000 1.000000
+Kd 0.720000 0.720000 0.720000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd MMD 9.3.1\UserFile\Model\Yukari Yakumo\t\y02.png
+map_d MMD 9.3.1\\UserFile\\Model\\Yukari Yakumo\\t\\y02.png
+
+newmtl 髪前2.003
+Ns 7.843137
+Ka 1.000000 1.000000 1.000000
+Kd 0.720000 0.720000 0.720000
+Ks 0.080000 0.080000 0.080000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd MMD 9.3.1\UserFile\Model\Yukari Yakumo\t\y01a.png
+map_d MMD 9.3.1\\UserFile\\Model\\Yukari Yakumo\\t\\y01a.png
+
+newmtl 髪結.003
+Ns 7.843137
+Ka 1.000000 1.000000 1.000000
+Kd 0.720000 0.720000 0.720000
+Ks 0.080000 0.080000 0.080000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd MMD 9.3.1\UserFile\Model\Yukari Yakumo\t\y01.png
