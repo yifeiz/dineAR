@@ -13,27 +13,27 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>{
-    private static final String TAG = "RecyclerViewAdapter";
 
     private ArrayList <String>  mNames = new ArrayList<>();
     private Context mContext;
+    private OnRestaurantListener onRestaurantListener;
 
-    public RecyclerViewAdapter(ArrayList<String> mNames, Context mContext) {
+    public RecyclerViewAdapter(ArrayList<String> mNames, Context mContext, OnRestaurantListener onRestaurantListener) {
         this.mNames = mNames;
         this.mContext = mContext;
+        this.onRestaurantListener = onRestaurantListener;
     }
 
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.favorites, parent, false);
-        ViewHolder holder = new ViewHolder(view);
+        ViewHolder holder = new ViewHolder(view, onRestaurantListener);
         return holder;
     }
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        Log.d(TAG, "onBindViewHolder: called.");
         holder.data.setText(mNames.get(position)); // need to do the thing here where we set text according to data we get
     }
 
@@ -42,13 +42,25 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         return mNames.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         TextView data;
+        OnRestaurantListener onRestaurantListener;
         ConstraintLayout parentLayout;
-        public ViewHolder(View itemView) {
+        public ViewHolder(View itemView, OnRestaurantListener onRestaurantListener) {
             super(itemView);
             data = itemView.findViewById(R.id.favoriteText);
             parentLayout = itemView.findViewById(R.id.parentLayout);
+            this.onRestaurantListener = onRestaurantListener;
+            itemView.setOnClickListener(this);
         }
+
+        @Override
+        public void onClick(View view) {
+            onRestaurantListener.onRestaurantClick(getAdapterPosition());
+        }
+    }
+
+    public interface OnRestaurantListener {
+        void onRestaurantClick(int position);
     }
 }
