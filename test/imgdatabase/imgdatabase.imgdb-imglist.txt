@@ -1,0 +1,11 @@
+000.jpg|/Users/yifeiz/dineAR/Test/arcore-android-sdk-1.6.0/tools/arcoreimg/macos/input/000.jpg
+001.jpg|/Users/yifeiz/dineAR/Test/arcore-android-sdk-1.6.0/tools/arcoreimg/macos/input/001.jpg
+002.jpg|/Users/yifeiz/dineAR/Test/arcore-android-sdk-1.6.0/tools/arcoreimg/macos/input/002.jpg
+003.jpg|/Users/yifeiz/dineAR/Test/arcore-android-sdk-1.6.0/tools/arcoreimg/macos/input/003.jpg
+004.jpg|/Users/yifeiz/dineAR/Test/arcore-android-sdk-1.6.0/tools/arcoreimg/macos/input/004.jpg
+005.jpg|/Users/yifeiz/dineAR/Test/arcore-android-sdk-1.6.0/tools/arcoreimg/macos/input/005.jpg
+006.jpg|/Users/yifeiz/dineAR/Test/arcore-android-sdk-1.6.0/tools/arcoreimg/macos/input/006.jpg
+007.jpg|/Users/yifeiz/dineAR/Test/arcore-android-sdk-1.6.0/tools/arcoreimg/macos/input/007.jpg
+008.jpg|/Users/yifeiz/dineAR/Test/arcore-android-sdk-1.6.0/tools/arcoreimg/macos/input/008.jpg
+009.jpg|/Users/yifeiz/dineAR/Test/arcore-android-sdk-1.6.0/tools/arcoreimg/macos/input/009.jpg
+cat.jpg|/Users/yifeiz/dineAR/Test/arcore-android-sdk-1.6.0/tools/arcoreimg/macos/input/cat.jpg
