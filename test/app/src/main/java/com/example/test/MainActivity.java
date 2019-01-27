@@ -1,12 +1,9 @@
 package com.example.test;
 
 
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.Toast;
 
 import com.google.ar.core.Anchor;
@@ -33,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     boolean shouldAddModel = true;
 
 
+    // stuff as you open app
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
+    // places model over node (unless some bad things happen)
     private void placeObject(ArFragment arFragment, Anchor anchor, Uri uri) {
         ModelRenderable.builder()
                 .setSource(arFragment.getContext(), uri)
@@ -58,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 );
     }
 
+    //checks whether or not reference image is in frame; if it is, moves on to show model
     private void onUpdateFrame(FrameTime frameTime) {
         Frame frame = arFragment.getArSceneView().getArFrame();
         Collection<AugmentedImage> augmentedImages = frame.getUpdatedTrackables(AugmentedImage.class);
@@ -71,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //sets up the database and sets it up before opening the app (just reads from premade one)
     public boolean setupAugmentedImagesDb(Config config, Session session) {
 
         try {
@@ -79,26 +79,13 @@ public class MainActivity extends AppCompatActivity {
             config.setAugmentedImageDatabase(augmentedImageDatabase);
             session.configure(config);
             return true;
-        }
-        catch (IOException e){
+        } catch (IOException e){
             return false;
         }
-//        Bitmap bitmap = loadAugmentedImage();
-//        if (bitmap == null) {
-//            return false;
-//        }
-//        augmentedImageDatabase.addImage("cat", bitmap);
+
     }
 
-//    private Bitmap loadAugmentedImage() {
-//        try (InputStream is = getAssets().open("cat.jpg")) {
-//            return BitmapFactory.decodeStream(is);
-//        } catch (IOException e) {
-//            Log.e("ImageLoad", "IO Exception", e);
-//        }
-//        return null;
-//    }
-
+    // creates a node to set the model on
     private void addNodeToScene(ArFragment arFragment, Anchor anchor, Renderable renderable) {
         AnchorNode anchorNode = new AnchorNode(anchor);
         TransformableNode node = new TransformableNode(arFragment.getTransformationSystem());

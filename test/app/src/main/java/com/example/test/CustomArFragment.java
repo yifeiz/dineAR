@@ -6,7 +6,6 @@ import com.google.ar.core.Config;
 import com.google.ar.core.Session;
 import com.google.ar.sceneform.ux.ArFragment;
 
-import java.io.IOException;
 
 public class CustomArFragment extends ArFragment {
     @Override
