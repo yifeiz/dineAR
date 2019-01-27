@@ -1,0 +1,1 @@
+001.jpg|/Users/yifeiz/dineAR/Test/arcore-android-sdk-1.6.0/tools/arcoreimg/macos/input/001.jpg
