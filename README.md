@@ -1,3 +1,5 @@
+#dineAR
+
 **Inspiration**
 
 Our inspiration behind dineAR was our frustration of not being able to see our food before ordering at a restaurant. Too many times have we gone to a restaurant and ordered something we ended up not liking because we had no idea what it was or looked like based on the vague menu descriptions. To prevent this from happening to others just like us, and to reduce potential food waste and unhappy customers, we developed dineAR to address this problem.
