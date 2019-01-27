@@ -4,13 +4,13 @@ import java.util.ArrayList;
 
 public class Restaurant {
     private String name;
-    private ArrayList<String> dishes;
-    private ArrayList<String> imageURLs;
+    private ArrayList<Dish> dishes;
+    private int imageURL;
 
-    public Restaurant(String name, ArrayList<String> dishes, ArrayList<String> imageURLs) {
+    public Restaurant(String name, ArrayList<Dish> dishes, int imageURL) {
         this.name = name;
         this.dishes = dishes;
-        this.imageURLs = imageURLs;
+        this.imageURL = imageURL;
     }
 
     public String getName() {
@@ -21,19 +21,19 @@ public class Restaurant {
         this.name = name;
     }
 
-    public ArrayList<String> getDishes() {
+    public ArrayList<Dish> getDishes() {
         return dishes;
     }
 
-    public void setDishes(ArrayList<String> dishes) {
+    public void setDishes(ArrayList<Dish> dishes) {
         this.dishes = dishes;
     }
 
-    public ArrayList<String> getImageURLs() {
-        return imageURLs;
+    public int getImageURLs() {
+        return imageURL;
     }
 
-    public void setImageURLs(ArrayList<String> imageURLs) {
-        this.imageURLs = imageURLs;
+    public void setImageURLs(int imageURLs) {
+        this.imageURL = imageURLs;
     }
 }

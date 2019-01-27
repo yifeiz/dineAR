@@ -4,7 +4,6 @@ import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.constraint.ConstraintLayout;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,23 +11,24 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>{
 
-    private ArrayList <Restaurant>  mRestaurants = new ArrayList<>();
+public class DishAdapter extends RecyclerView.Adapter<DishAdapter.ViewHolder>{
+
+    private ArrayList <Dish>  mDishes = new ArrayList<>();
     private Context mContext;
-    private OnRestaurantListener onRestaurantListener;
+    private OnDishListener onDishListener;
 
-    public RecyclerViewAdapter(ArrayList<Restaurant> mRestaurants, Context mContext, OnRestaurantListener onRestaurantListener) {
-        this.mRestaurants = mRestaurants;
+    public DishAdapter(ArrayList<Dish> mRestaurants, Context mContext, OnDishListener onDishListener) {
+        this.mDishes = mRestaurants;
         this.mContext = mContext;
-        this.onRestaurantListener = onRestaurantListener;
+        this.onDishListener = onDishListener;
     }
 
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.favorites, parent, false);
-        ViewHolder holder = new ViewHolder(view, onRestaurantListener);
+        ViewHolder holder = new ViewHolder(view, onDishListener);
         return holder;
     }
 
@@ -39,28 +39,28 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
     @Override
     public int getItemCount() {
-        return mRestaurants.size();
+        return mDishes.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         TextView data;
-        OnRestaurantListener onRestaurantListener;
+        OnDishListener onDishListener;
         ConstraintLayout parentLayout;
-        public ViewHolder(View itemView, OnRestaurantListener onRestaurantListener) {
+        public ViewHolder(View itemView, OnDishListener onDishListener) {
             super(itemView);
             data = itemView.findViewById(R.id.favoriteText);
             parentLayout = itemView.findViewById(R.id.parentLayout);
-            this.onRestaurantListener = onRestaurantListener;
+            this.onDishListener = onDishListener;
             itemView.setOnClickListener(this);
         }
 
         @Override
         public void onClick(View view) {
-            onRestaurantListener.onRestaurantClick(getAdapterPosition());
+            onDishListener.onDishClick(getAdapterPosition());
         }
     }
 
-    public interface OnRestaurantListener {
-        void onRestaurantClick(int position);
+    public interface OnDishListener {
+        void onDishClick (int position);
     }
 }
