@@ -1,4 +1,4 @@
-package com.example.test;
+package com.kingapps.dinear;
 
 import android.util.Log;
 

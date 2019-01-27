@@ -1,9 +1,8 @@
-package com.example.test;
-
+package com.kingapps.dinear;
 
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
 import com.google.ar.core.Anchor;
@@ -23,19 +22,15 @@ import com.google.ar.sceneform.ux.TransformableNode;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Collection;
-
-public class MainActivity extends AppCompatActivity {
+public class AugmentReality extends AppCompatActivity {
 
     ArFragment arFragment;
     boolean shouldAddModel = true;
 
-
-    // stuff as you open app
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_augment_reality);
 
         arFragment = (CustomArFragment) getSupportFragmentManager().findFragmentById(R.id.sceneform_fragment);
         arFragment.getPlaneDiscoveryController().hide();

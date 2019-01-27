@@ -24,7 +24,7 @@
      Play Store to download and install ARCore when the app is installed.
 -->
         <meta-data android:name="com.google.ar.core" android:value="required" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".AugmentReality">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

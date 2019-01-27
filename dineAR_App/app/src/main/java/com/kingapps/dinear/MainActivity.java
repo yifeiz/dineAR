@@ -9,11 +9,12 @@ import android.view.View;
 import android.view.Window;
 import android.widget.ImageButton;
 
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-
-import java.lang.reflect.Array;
+//import com.google.firebase.database.DatabaseReference;
+//import com.google.firebase.database.FirebaseDatabase;
+//
+//import java.lang.reflect.Array;
 import java.util.ArrayList;
+
 
 public class MainActivity extends AppCompatActivity implements RecyclerViewAdapter.OnRestaurantListener {
     private RecyclerView mRecyclerView;
@@ -41,11 +42,13 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewAdapt
         visualize.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent fileIntent = new Intent(MainActivity.this, RestaurantActivity.class);
-                MainActivity.this.startActivity(fileIntent);
-                FirebaseDatabase database = FirebaseDatabase.getInstance();
-                DatabaseReference myRef = database.getReference("message");
-                myRef.setValue("Hello, World!");
+                Intent arIntent = new Intent(MainActivity.this, AugmentReality.class);
+                MainActivity.this.startActivity(arIntent);
+                //Intent fileIntent = new Intent(MainActivity.this, AugmentReality.class);
+                //MainActivity.this.startActivity(fileIntent);
+                //FirebaseDatabase database = FirebaseDatabase.getInstance();
+                //DatabaseReference myRef = database.getReference("message");
+                //myRef.setValue("Hello, World!");
 
             }
         });
