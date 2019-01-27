@@ -1,0 +1,213 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 17.07.2014 22:04:02
+
+newmtl PORCELAIN
+	Ns 50.000000
+	Ni 1.600000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.000000 0.000000 0.000000
+	Kd 1.000000 1.000000 0.901961
+	Ks 0.810000 0.810000 0.810000
+	Ke 0.000000 0.000000 0.000000
+	map_refl Raytrace_Raytrace.tga
+
+newmtl 02___Default
+	Ns 50.000000
+	Ni 1.600000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.500000 0.500000 0.500000
+	Ks 0.630000 0.630000 0.630000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka J:\Personal\Projects\3D\Modely\bufet\txr\4392651590_24f5cc03e6_o.jpg
+	map_Kd J:\Personal\Projects\3D\Modely\bufet\txr\4392651590_24f5cc03e6_o.jpg
+	map_bump -bm 0.300000 Map__101_Color_Correction.tga
+	map_refl Raytrace_Raytrace.tga
+
+newmtl rose_sepal
+	Ns 50.000000
+	Ni 1.600000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.500000 0.500000 0.500000
+	Ks 0.810000 0.810000 0.810000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka J:\Personal\Projects\3D\Modely\bufet\txr\roseSepal_col.bmp
+	map_Kd J:\Personal\Projects\3D\Modely\bufet\txr\roseSepal_col.bmp
+	map_bump J:\Personal\Projects\3D\Modely\bufet\txr\roseSepal_bump.bmp
+	bump J:\Personal\Projects\3D\Modely\bufet\txr\roseSepal_bump.bmp
+	map_refl Raytrace_Raytrace.tga
+
+newmtl 01___Defausltss
+	Ns 50.000000
+	Ni 1.600000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.500000 0.500000 0.500000
+	Ks 0.630000 0.630000 0.630000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Map__102_Color_Correction.tga
+	map_Kd Map__102_Color_Correction.tga
+
+newmtl Material__39
+	Ns 50.000000
+	Ni 1.600000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.831373 0.145098 0.258824
+	Ks 0.810000 0.810000 0.810000
+	Ke 0.000000 0.000000 0.000000
+	map_refl Raytrace_Raytrace.tga
+
+newmtl 01___Defausltxxxxss
+	Ns 50.000000
+	Ni 1.600000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.500000 0.500000 0.500000
+	Ks 0.630000 0.630000 0.630000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Map__103_Color_Correction.tga
+	map_Kd Map__103_Color_Correction.tga
+
+newmtl dfaf
+	Ns 50.000000
+	Ni 1.600000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.500000 0.500000 0.500000
+	Ks 0.540000 0.540000 0.540000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka J:\Personal\Projects\3D\Modely\bufet\txr\cupcake_top.jpg
+	map_Kd J:\Personal\Projects\3D\Modely\bufet\txr\cupcake_top.jpg
+	map_bump J:\Personal\Projects\3D\Modely\bufet\txr\cupcake_top.jpg
+	bump J:\Personal\Projects\3D\Modely\bufet\txr\cupcake_top.jpg
+
+newmtl 01___Default
+	Ns 50.000000
+	Ni 1.600000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.500000 0.500000 0.500000
+	Ks 0.630000 0.630000 0.630000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka J:\Personal\Projects\3D\Modely\bufet\txr\cupcake_b_cup.jpg
+	map_Kd J:\Personal\Projects\3D\Modely\bufet\txr\cupcake_b_cup.jpg
+
+newmtl dfafxxxxx
+	Ns 50.000000
+	Ni 1.600000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.500000 0.500000 0.500000
+	Ks 0.540000 0.540000 0.540000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka J:\Personal\Projects\3D\Modely\bufet\txr\cupcake_B_top.jpg
+	map_Kd J:\Personal\Projects\3D\Modely\bufet\txr\cupcake_B_top.jpg
+	map_bump J:\Personal\Projects\3D\Modely\bufet\txr\cupcake_B_top.jpg
+	bump J:\Personal\Projects\3D\Modely\bufet\txr\cupcake_B_top.jpg
+
+newmtl 07___Default
+	Ns 50.000000
+	Ni 1.600000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.500000 0.500000 0.500000
+	Ks 0.180000 0.180000 0.180000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka J:\Personal\Projects\3D\Modely\bufet\txr\cream.jpg
+	map_Kd J:\Personal\Projects\3D\Modely\bufet\txr\cream.jpg
+	map_bump J:\Personal\Projects\3D\Modely\bufet\txr\cream.jpg
+	bump J:\Personal\Projects\3D\Modely\bufet\txr\cream.jpg
+	map_refl Raytrace_Raytrace.tga
+
+newmtl banana
+	Ns 50.000000
+	Ni 1.600000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.372549 1.000000 0.121569
+	Ks 0.540000 0.540000 0.540000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka J:\Personal\Projects\3D\Modely\bufet\txr\banana.jpg
+	map_Kd J:\Personal\Projects\3D\Modely\bufet\txr\banana.jpg
+	map_bump -bm 0.300000 Map__104_Color_Correction.tga
+	map_refl Raytrace_Raytrace.tga
+
+newmtl 14___Default2
+	Ns 50.000000
+	Ni 1.600000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.372549 1.000000 0.121569
+	Ks 0.360000 0.360000 0.360000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka J:\Personal\Projects\3D\Modely\bufet\txr\4396000601_494f609271_o.jpg
+	map_Kd J:\Personal\Projects\3D\Modely\bufet\txr\4396000601_494f609271_o.jpg
+	map_refl Raytrace_Raytrace.tga
+
+newmtl grape_leaves
+	Ns 50.000000
+	Ni 1.600000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.500000 0.500000 0.500000
+	Ks 0.630000 0.630000 0.630000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka J:\Personal\Projects\3D\Modely\bufet\txr\grape_leaf.jpg
+	map_Kd J:\Personal\Projects\3D\Modely\bufet\txr\grape_leaf.jpg
+	map_d J:\Personal\Projects\3D\Modely\bufet\txr\grape_leaf_alpha.png
+	map_bump -bm 0.300000 Map__105_Color_Correction.tga
+	map_refl Raytrace_Raytrace.tga
+
+newmtl Material__2054
+	Ns 36.000000
+	Ni 6.000000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.047059 0.047059 0.047059
+	Ks 0.900000 0.900000 0.900000
+	Ke 0.000000 0.000000 0.000000
+	map_refl Raytrace_Raytrace.tga

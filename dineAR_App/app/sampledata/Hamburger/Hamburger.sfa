@@ -37,7 +37,7 @@
     file: 'sampledata/Hamburger/Hamburger.obj',
     name: 'Hamburger',
     recenter: 'root',
-    scale: 0.05,
+    scale: 0.025,
   },
   samplers: [
     {

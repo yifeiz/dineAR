@@ -1,0 +1,107 @@
+{
+  materials: [
+    {
+      name: 'blinn2SG',
+      parameters: [
+        {
+          baseColor: 'sushi_dish',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'lambert2SG',
+      parameters: [
+        {
+          baseColor: 'sushi',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'lambert3SG',
+      parameters: [
+        {
+          baseColor: 'sushi',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/sushi/sushi.obj',
+    name: 'sushi',
+    recenter: 'root',
+    scale: 0.02,
+  },
+  samplers: [
+    {
+      file: 'sampledata/sushi/sushi.jpg',
+      name: 'sushi',
+      pipeline_name: 'sushi.jpg',
+    },
+    {
+      file: 'sampledata/sushi/sushi_dish.jpg',
+      name: 'sushi_dish',
+      pipeline_name: 'sushi_dish.jpg',
+    },
+  ],
+  version: '0.54:1',
+}

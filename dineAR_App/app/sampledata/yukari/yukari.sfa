@@ -4,7 +4,7 @@
       name: 'ぱんつ.003',
       parameters: [
         {
-          baseColor: null,
+          baseColor: 'y03',
         },
         {
           baseColorTint: [
@@ -30,7 +30,7 @@
       name: 'リボン結.003',
       parameters: [
         {
-          baseColor: null,
+          baseColor: 'y02',
         },
         {
           baseColorTint: [
@@ -56,7 +56,7 @@
       name: '服.003',
       parameters: [
         {
-          baseColor: null,
+          baseColor: 'y04',
         },
         {
           baseColorTint: [
@@ -82,7 +82,7 @@
       name: '瞳.003',
       parameters: [
         {
-          baseColor: null,
+          baseColor: 'ey',
         },
         {
           baseColorTint: [
@@ -108,7 +108,7 @@
       name: '肌2.003',
       parameters: [
         {
-          baseColor: null,
+          baseColor: 'y00',
         },
         {
           baseColorTint: [
@@ -134,7 +134,7 @@
       name: '青.003',
       parameters: [
         {
-          baseColor: null,
+          baseColor: 'e',
         },
         {
           baseColorTint: [
@@ -212,7 +212,7 @@
       name: '顔パーツ.003',
       parameters: [
         {
-          baseColor: null,
+          baseColor: 'y00',
         },
         {
           baseColorTint: [
@@ -238,7 +238,7 @@
       name: '首リボン.003',
       parameters: [
         {
-          baseColor: null,
+          baseColor: 'y02',
         },
         {
           baseColorTint: [
@@ -264,7 +264,7 @@
       name: '髪前2.003',
       parameters: [
         {
-          baseColor: null,
+          baseColor: 'y01a',
         },
         {
           baseColorTint: [
@@ -290,7 +290,7 @@
       name: '髪結.003',
       parameters: [
         {
-          baseColor: null,
+          baseColor: 'y01',
         },
         {
           baseColorTint: [
@@ -323,6 +323,67 @@
     file: 'sampledata/yukari/yukari.obj',
     name: 'yukari',
     recenter: 'root',
+    scale: 0.25,
   },
+  samplers: [
+    {
+      file: 'sampledata/yukari/y01a.png',
+      name: 'y01a',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'y01a.png',
+    },
+    {
+      file: 'sampledata/yukari/y00.png',
+      name: 'y00',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'y00.png',
+    },
+    {
+      file: 'sampledata/yukari/ey.png',
+      name: 'ey',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'ey.png',
+    },
+    {
+      file: 'sampledata/yukari/y04.png',
+      name: 'y04',
+      pipeline_name: 'y04.png',
+    },
+    {
+      file: 'sampledata/yukari/y01.png',
+      name: 'y01',
+      pipeline_name: 'y01.png',
+    },
+    {
+      file: 'sampledata/yukari/e.png',
+      name: 'e',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'e.png',
+    },
+    {
+      file: 'sampledata/yukari/y02.png',
+      name: 'y02',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'y02.png',
+    },
+    {
+      file: 'sampledata/yukari/y03.png',
+      name: 'y03',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'y03.png',
+    },
+  ],
   version: '0.54:1',
 }

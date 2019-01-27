@@ -58,7 +58,7 @@ public class AugmentReality extends AppCompatActivity {
         for (AugmentedImage augmentedImage : augmentedImages) {
             if (augmentedImage.getTrackingState() == TrackingState.TRACKING) {
                 if (augmentedImage.getIndex() == 0 && shouldAddModel) {
-                    placeObject(arFragment, augmentedImage.createAnchor(augmentedImage.getCenterPose()), Uri.parse("Hamburger.sfb"));
+                    placeObject(arFragment, augmentedImage.createAnchor(augmentedImage.getCenterPose()), Uri.parse("sushi3"+".sfb"));
                     shouldAddModel = false;
                 }
             }

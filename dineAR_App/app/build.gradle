@@ -56,3 +56,71 @@ sceneform.asset('sampledata/pizza/pizza.obj',
         'default',
         'sampledata/pizza/pizza.sfa',
         'src/main/assets/pizza')
+
+
+sceneform.asset('sampledata/yukari/yukari.obj',
+        'default',
+        'sampledata/yukari/yukari.sfa',
+        'src/main/assets/yukari')
+
+sceneform.asset('sampledata/dessert/dessert tray.obj',
+        'default',
+        'sampledata/dessert/dessert tray.sfa',
+        'src/main/assets/dessert tray')
+
+sceneform.asset('sampledata/cake/Chocolate Cake.obj',
+        'default',
+        'sampledata/cake/Chocolate Cake.sfa',
+        'src/main/assets/Chocolate Cake')
+
+
+sceneform.asset('sampledata/corn/EarOfCorn_220.obj',
+        'default',
+        'sampledata/corn/EarOfCorn_220.sfa',
+        'src/main/assets/EarOfCorn_220')
+
+
+sceneform.asset('sampledata/sushi/sushi.obj',
+        'default',
+        'sampledata/sushi/sushi.sfa',
+        'src/main/assets/sushi')
+
+sceneform.asset('sampledata/sushi_v2/model.obj',
+        'default',
+        'sampledata/sushi_v2/model.sfa',
+        'src/main/assets/model')
+
+sceneform.asset('sampledata/lobster/LobsterTail.obj',
+        'default',
+        'sampledata/lobster/LobsterTail.sfa',
+        'src/main/assets/LobsterTail')
+
+sceneform.asset('sampledata/breakfast/model.obj',
+        'default',
+        'sampledata/breakfast/model.sfa',
+        'src/main/assets/bacon and eggs')
+
+sceneform.asset('sampledata/brunch/model.obj',
+        'default',
+        'sampledata/brunch/model.sfa',
+        'src/main/assets/brunch')
+
+sceneform.asset('sampledata/cinammon/CinnamonRoll_238.obj',
+        'default',
+        'sampledata/cinammon/CinnamonRoll_238.sfa',
+        'src/main/assets/cinnamon roll')
+
+sceneform.asset('sampledata/hotdog/hotdog.obj',
+        'default',
+        'sampledata/hotdog/hotdog.sfa',
+        'src/main/assets/hotdog')
+
+sceneform.asset('sampledata/shishkebab/Shishkebab_251.obj',
+        'default',
+        'sampledata/shishkebab/Shishkebab_251.sfa',
+        'src/main/assets/Shishkebab')
+
+sceneform.asset('sampledata/sushi_v3/model.obj',
+        'default',
+        'sampledata/sushi_v3/model.sfa',
+        'src/main/assets/sushi3')

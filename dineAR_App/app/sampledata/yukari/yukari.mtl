@@ -10,8 +10,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 0
-map_Kd MMD 9.3.1\UserFile\Model\Yukari Yakumo\t\y03.png
-map_d MMD 9.3.1\\UserFile\\Model\\Yukari Yakumo\\t\\y03.png
+map_Kd y03.png
+map_d y03.png
 
 newmtl リボン結.003
 Ns 7.843137
@@ -22,8 +22,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 0
-map_Kd MMD 9.3.1\UserFile\Model\Yukari Yakumo\t\y02.png
-map_d MMD 9.3.1\\UserFile\\Model\\Yukari Yakumo\\t\\y02.png
+map_Kd y02.png
+map_d y02.png
 
 newmtl 服.003
 Ns 7.843137
@@ -34,7 +34,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 0
-map_Kd MMD 9.3.1\UserFile\Model\Yukari Yakumo\t\y04.png
+map_Kd y04.png
 
 newmtl 瞳.003
 Ns 7.843137
@@ -45,8 +45,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 0
-map_Kd MMD 9.3.1\UserFile\Model\Yukari Yakumo\t\ey.png
-map_d MMD 9.3.1\\UserFile\\Model\\Yukari Yakumo\\t\\ey.png
+map_Kd ey.png
+map_d ey.png
 
 newmtl 肌2.003
 Ns 7.843137
@@ -57,8 +57,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 0
-map_Kd MMD 9.3.1\UserFile\Model\Yukari Yakumo\t\y00.png
-map_d MMD 9.3.1\\UserFile\\Model\\Yukari Yakumo\\t\\y00.png
+map_Kd y00.png
+map_d y00.png
 
 newmtl 青.003
 Ns 7.843137
@@ -69,8 +69,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 0
-map_Kd MMD 9.3.1\UserFile\Model\Yukari Yakumo\t\e.png
-map_d MMD 9.3.1\\UserFile\\Model\\Yukari Yakumo\\t\\e.png
+map_Kd e.png
+map_d e.png
 
 newmtl 靴.003
 Ns 7.843137
@@ -81,7 +81,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 0
-map_Kd MMD 9.3.1\\UserFile\\Model\\Yukari Yakumo\\t\\nt_01.bmp
+map_Kd nt_01.bmp
 
 newmtl 靴底.003
 Ns 7.843137
@@ -92,7 +92,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 0
-map_Kd MMD 9.3.1\\UserFile\\Model\\Yukari Yakumo\\t\\nt_01.bmp
+map_Kd nt_01.bmp
 
 newmtl 顔パーツ.003
 Ns 7.843137
@@ -103,8 +103,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 0
-map_Kd MMD 9.3.1\UserFile\Model\Yukari Yakumo\t\y00.png
-map_d MMD 9.3.1\\UserFile\\Model\\Yukari Yakumo\\t\\y00.png
+map_Kd y00.png
+map_d y00.png
 
 newmtl 首リボン.003
 Ns 7.843137
@@ -115,8 +115,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 0
-map_Kd MMD 9.3.1\UserFile\Model\Yukari Yakumo\t\y02.png
-map_d MMD 9.3.1\\UserFile\\Model\\Yukari Yakumo\\t\\y02.png
+map_Kd y02.png
+map_d y02.png
 
 newmtl 髪前2.003
 Ns 7.843137
@@ -127,8 +127,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 0
-map_Kd MMD 9.3.1\UserFile\Model\Yukari Yakumo\t\y01a.png
-map_d MMD 9.3.1\\UserFile\\Model\\Yukari Yakumo\\t\\y01a.png
+map_Kd y01a.png
+map_d y01a.png
 
 newmtl 髪結.003
 Ns 7.843137
@@ -139,4 +139,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 0
-map_Kd MMD 9.3.1\UserFile\Model\Yukari Yakumo\t\y01.png
+map_Kd y01.png
